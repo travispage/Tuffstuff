@@ -1,0 +1,70 @@
+[14-Aug-2017 23:40:00 America/Chicago] PHP Warning:  require(/home4/socialme/public_html/tuffstuff/wp-includes/load.php): failed to open stream: No such file or directory in /home4/socialme/public_html/tuffstuff/wp-settings.php on line 19
+[14-Aug-2017 23:40:00 America/Chicago] PHP Fatal error:  require(): Failed opening required '/home4/socialme/public_html/tuffstuff/wp-includes/load.php' (include_path='.:/opt/php56/lib/php') in /home4/socialme/public_html/tuffstuff/wp-settings.php on line 19
+[14-Aug-2017 23:42:01 America/Chicago] PHP Warning:  require(/home4/socialme/public_html/tuffstuff/wp-includes/load.php): failed to open stream: No such file or directory in /home4/socialme/public_html/tuffstuff/wp-settings.php on line 19
+[14-Aug-2017 23:42:01 America/Chicago] PHP Fatal error:  require(): Failed opening required '/home4/socialme/public_html/tuffstuff/wp-includes/load.php' (include_path='.:/opt/php56/lib/php') in /home4/socialme/public_html/tuffstuff/wp-settings.php on line 19
+[14-Aug-2017 23:44:02 America/Chicago] PHP Warning:  require(/home4/socialme/public_html/tuffstuff/wp-includes/load.php): failed to open stream: No such file or directory in /home4/socialme/public_html/tuffstuff/wp-settings.php on line 19
+[14-Aug-2017 23:44:02 America/Chicago] PHP Fatal error:  require(): Failed opening required '/home4/socialme/public_html/tuffstuff/wp-includes/load.php' (include_path='.:/opt/php56/lib/php') in /home4/socialme/public_html/tuffstuff/wp-settings.php on line 19
+[14-Aug-2017 23:46:02 America/Chicago] PHP Warning:  require(/home4/socialme/public_html/tuffstuff/wp-includes/load.php): failed to open stream: No such file or directory in /home4/socialme/public_html/tuffstuff/wp-settings.php on line 19
+[14-Aug-2017 23:46:02 America/Chicago] PHP Fatal error:  require(): Failed opening required '/home4/socialme/public_html/tuffstuff/wp-includes/load.php' (include_path='.:/opt/php56/lib/php') in /home4/socialme/public_html/tuffstuff/wp-settings.php on line 19
+[15-Aug-2017 09:21:26 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home4/socialme/public_html/tuffstuff/wp-includes/class-wp-hook.php on line 295
+[17-Aug-2017 08:17:16 UTC] WordPress database error Table 'socialme_tuffstuff_db.eovKMEuV_yoast_seo_meta' doesn't exist for query 
+			SELECT ID
+			  FROM eovKMEuV_posts AS p
+			 WHERE p.post_type IN ( "post", "page", "product", "mttr_testimonials", "mttr_par_products" )
+			   AND p.post_status = "publish"
+			   AND ID NOT IN( SELECT object_id FROM eovKMEuV_yoast_seo_meta ) 
+			 LIMIT 1 made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->store_internal_link_count, WPSEO_Link_Query::has_unprocessed_posts
+[17-Aug-2017 08:17:16 UTC] WordPress database error Table 'socialme_tuffstuff_db.eovKMEuV_yoast_seo_meta' doesn't exist for query 
+				UPDATE eovKMEuV_yoast_seo_meta count_table 
+				   SET count_table.incoming_link_count = ( 
+				       SELECT COUNT(id) 
+				         FROM eovKMEuV_yoast_seo_links links_table 
+				        WHERE links_table.target_post_id = count_table.object_id 
+				       ) 
+				 made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->store_internal_link_count, WPSEO_Meta_Storage->update_incoming_link_counts
+[17-Aug-2017 09:28:58 UTC] WordPress database error Table 'socialme_tuffstuff_db.eovKMEuV_yoast_seo_meta' doesn't exist for query 
+			SELECT ID
+			  FROM eovKMEuV_posts AS p
+			 WHERE p.post_type IN ( "post", "page", "product", "mttr_testimonials", "mttr_par_products" )
+			   AND p.post_status = "publish"
+			   AND ID NOT IN( SELECT object_id FROM eovKMEuV_yoast_seo_meta ) 
+			 LIMIT 1 made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->store_internal_link_count, WPSEO_Link_Query::has_unprocessed_posts
+[17-Aug-2017 09:28:58 UTC] WordPress database error Table 'socialme_tuffstuff_db.eovKMEuV_yoast_seo_meta' doesn't exist for query 
+				UPDATE eovKMEuV_yoast_seo_meta count_table 
+				   SET count_table.incoming_link_count = ( 
+				       SELECT COUNT(id) 
+				         FROM eovKMEuV_yoast_seo_links links_table 
+				        WHERE links_table.target_post_id = count_table.object_id 
+				       ) 
+				 made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->store_internal_link_count, WPSEO_Meta_Storage->update_incoming_link_counts
+[21-Aug-2017 08:27:30 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[23-Aug-2017 05:02:13 UTC] WordPress database error Table 'socialme_tuffstuff_db.eovKMEuV_yoast_seo_meta' doesn't exist for query 
+			SELECT ID
+			  FROM eovKMEuV_posts AS p
+			 WHERE p.post_type IN ( "post", "page", "product", "mttr_testimonials", "mttr_par_products" )
+			   AND p.post_status = "publish"
+			   AND ID NOT IN( SELECT object_id FROM eovKMEuV_yoast_seo_meta ) 
+			 LIMIT 1 made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->store_internal_link_count, WPSEO_Link_Query::has_unprocessed_posts
+[23-Aug-2017 05:02:13 UTC] WordPress database error Table 'socialme_tuffstuff_db.eovKMEuV_yoast_seo_meta' doesn't exist for query 
+				UPDATE eovKMEuV_yoast_seo_meta count_table 
+				   SET count_table.incoming_link_count = ( 
+				       SELECT COUNT(id) 
+				         FROM eovKMEuV_yoast_seo_links links_table 
+				        WHERE links_table.target_post_id = count_table.object_id 
+				       ) 
+				 made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->store_internal_link_count, WPSEO_Meta_Storage->update_incoming_link_counts
+[23-Aug-2017 09:02:21 UTC] WordPress database error Table 'socialme_tuffstuff_db.eovKMEuV_yoast_seo_meta' doesn't exist for query 
+			SELECT ID
+			  FROM eovKMEuV_posts AS p
+			 WHERE p.post_type IN ( "post", "page", "product", "mttr_testimonials", "mttr_par_products" )
+			   AND p.post_status = "publish"
+			   AND ID NOT IN( SELECT object_id FROM eovKMEuV_yoast_seo_meta ) 
+			 LIMIT 1 made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->store_internal_link_count, WPSEO_Link_Query::has_unprocessed_posts
+[23-Aug-2017 09:02:21 UTC] WordPress database error Table 'socialme_tuffstuff_db.eovKMEuV_yoast_seo_meta' doesn't exist for query 
+				UPDATE eovKMEuV_yoast_seo_meta count_table 
+				   SET count_table.incoming_link_count = ( 
+				       SELECT COUNT(id) 
+				         FROM eovKMEuV_yoast_seo_links links_table 
+				        WHERE links_table.target_post_id = count_table.object_id 
+				       ) 
+				 made by edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->store_internal_link_count, WPSEO_Meta_Storage->update_incoming_link_counts

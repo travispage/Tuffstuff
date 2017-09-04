@@ -1,0 +1,127 @@
+## Eclipse 
+.metadata
+.gradle
+local.properties
+.settings/
+.loadpath
+# Eclipse Core
+.project
+# External tool builders
+.externalToolBuilders/
+# Locally stored "Eclipse launch configurations"
+*.launch
+# PDT-specific
+.buildpath
+nbproject
+# PhpStorm
+.idea
+
+## Mac OS X
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+## Windows OS
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+
+*~
+.svn
+.cvs
+.git
+.listing
+*.bak
+*.swp
+*.log
+.maintenance
+
+.cache
+temp
+tmp
+*.tmp
+imagecache*
+*_backup
+gt-cache
+ics-importer-cache
+wp-config-sample.php
+wp-content/cache/
+wp-content/w3tc*
+wp-content/w3-*
+wp-content/uploads/snapshots
+wp-content/w3tc-bak
+wp-content/backup*
+wp-content/temp*
+wp-content/debug.log
+wp-content/backups
+wp-content/managewp
+wp-content/upgrade/*
+wp-content/uploads
+wp-content/blogs.dir/*/*
+pclzip-*
+
+# Site Map
+sitemap.xml.gz
+sitemap.xml
+
+
+# WordPress debugging files
+log.txt
+debug.log
+
+# Gallaries in various places
+gallery/*
+wp-content/gallery/*
+wp-content/album/*
+
+# known large file types
+*.hqx
+*.bin
+*.exe
+*.dll
+*.deb
+*.dmg
+*.iso
+*.img
+*.msi
+*.msp
+*.msm
+*.mid
+*.midi
+*.kar
+*.mp3
+*.ogg
+*.m4a
+*.ra
+*.3gpp
+*.3gp
+*.mp4
+*.mpeg
+*.mpg
+*.mov
+*.webm
+*.flv
+*.m4v
+*.mng
+*.asx
+*.asf
+*.wmv
+*.avi
+*.zip
+*.tar
+*.tgz
+*.gz

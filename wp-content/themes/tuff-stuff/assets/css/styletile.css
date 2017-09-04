@@ -1,0 +1,2402 @@
+/* --------------------------------------------------------
+*        __ __  __
+*      /  /   /   /     __/__/__
+*      \ /   /   /  __   /  /  __  (/__
+*       /   /   / /  /  /  /  /__) /  /
+*      /   /   / (__/__/_ /__/____/  /_/
+*              \
+*                SOLUTIONS
+*
+*	This file imports the base mixins and functions needed for
+*	the framework to work. These are set in a specified order
+*	for variable dependencies.
+*
+ ---------------------------------------------------------- */
+/*
+*	This partial sets variables to enable ALL elements, even if they're disabled by default
+*/
+/*
+*	Band vars
+*/
+/*
+*	Box vars
+*/
+/*
+*	Buttons
+*/
+/*
+*	Hero Units
+*/
+/*
+*	Feature A
+*/
+/*
+*	Layout
+*/
+/*	
+*	Listing
+*/
+/* --------------------------------------------------------
+*        __ __  __
+*      /  /   /   /     __/__/__
+*      \ /   /   /  __   /  /  __  (/__
+*       /   /   / /  /  /  /  /__) /  /
+*      /   /   / (__/__/_ /__/____/  /_/
+*              \
+*                SOLUTIONS
+*
+*	This file contains the base global settings for the primary grid
+*
+*	Contents:
+*	- Grid Variables
+*	- Major Breakpoint Variables
+*	- Tweakpoint Variables
+*
+ ---------------------------------------------------------- */
+/* ---------------------------------------------
+*	=Grid Variables
+*------------------------------------------------*/
+/* ---------------------------------------------
+*	=Major Breakpoint Variables
+*------------------------------------------------*/
+/* ---------------------------------------------
+*	=Tweakpoint Variables
+*------------------------------------------------*/
+/* --------------------------------------------------------
+*        __ __  __
+*      /  /   /   /     __/__/__
+*      \ /   /   /  __   /  /  __  (/__
+*       /   /   / /  /  /  /  /__) /  /
+*      /   /   / (__/__/_ /__/____/  /_/
+*              \
+*                SOLUTIONS
+*
+*	This file contains the base global typography settings
+*
+*	Dependancies:
+*	- None
+*
+*	Contents:
+*	- Base Type Variables
+*	- Primary Typeface Variables
+*	- Secondary Typeface Variables
+*	- Misc Font Families
+*	- Base Spacing Unit Sizes
+*
+ ---------------------------------------------------------- */
+/* ---------------------------------------------
+*	=Base Type Variables
+*------------------------------------------------*/
+/* ---------------------------------------------
+*	=Primary Typeface Variables
+*------------------------------------------------*/
+/* ---------------------------------------------
+*	=Secondary Typeface Variables
+*------------------------------------------------*/
+/* ---------------------------------------------
+*	=Base Font Settings
+*------------------------------------------------*/
+/* ---------------------------------------------
+*	=Spacing Unit Sizes
+*
+*	These are used to create spacing based on the size of the type
+*	This creates a more cohesive and proportionate implementation
+*------------------------------------------------*/
+/* --------------------------------------------------------
+*        __ __  __
+*      /  /   /   /     __/__/__
+*      \ /   /   /  __   /  /  __  (/__
+*       /   /   / /  /  /  /  /__) /  /
+*      /   /   / (__/__/_ /__/____/  /_/
+*              \
+*                SOLUTIONS
+*
+*	This file contains the base global color settings
+*	For specific elements, such as the navigation, please
+*	assign those in their relevant partial.
+*
+*	Dependancies:
+*	- None
+*
+*	Contents:
+*	- Primary Typeface Variables
+*	- Secondary Typeface Variables
+*
+ ---------------------------------------------------------- */
+/* ---------------------------------------------
+*	=Greys
+*
+*	Named after their actual color, these can be used in
+*	the color vars further down.
+*------------------------------------------------*/
+/* ---------------------------------------------
+*	=Global colors
+*
+*	These variables are used to produce the style tile colors
+*	and as defaults for many elements
+*------------------------------------------------*/
+/* ---------------------------------------------
+*	=Element colors
+*
+*	These variables are used to produce the default
+*	colors for the styleguide elements
+*------------------------------------------------*/
+/* --------------------------------------------------------
+*        __ __  __
+*      /  /   /   /     __/__/__
+*      \ /   /   /  __   /  /  __  (/__
+*       /   /   / /  /  /  /  /__) /  /
+*      /   /   / (__/__/_ /__/____/  /_/
+*              \
+*                SOLUTIONS
+*
+*	This file contains miscellaneous global variables
+*
+*
+*     Dependancies:
+*     - None
+ ---------------------------------------------------------- */
+/* --------------------------------------------------------
+*        __ __  __
+*      /  /   /   /     __/__/__
+*      \ /   /   /  __   /  /  __  (/__
+*       /   /   / /  /  /  /  /__) /  /
+*      /   /   / (__/__/_ /__/____/  /_/
+*              \
+*                SOLUTIONS
+*
+*	This file contains the base global element breakpoints dependencies
+*	These will be reused across some optional elements,
+*	with the masthead components being the most notable
+*
+ ---------------------------------------------------------- */
+/* --------------------------------------------------------
+*        __ __  __
+*      /  /   /   /     __/__/__
+*      \ /   /   /  __   /  /  __  (/__
+*       /   /   / /  /  /  /  /__) /  /
+*      /   /   / (__/__/_ /__/____/  /_/
+*              \
+*                SOLUTIONS
+*
+*	This file contains the base functions needed for the
+*	framework to work.
+*
+* 	Dependancies:
+* 	- base.typography
+* 	- base.grid-settings
+*
+*	Contents:
+*	- mk-get-media-query-size
+*	- col
+*	- strip-unit
+*	- calc-rem
+*
+*
+*
+ ---------------------------------------------------------- */
+/* ---------------------------------------------
+*	Retrieve the requested size from the media query breakpoints map
+*------------------------------------------------*/
+/* ---------------------------------------------
+*	Return a ratio size in percentages
+*------------------------------------------------*/
+/* ---------------------------------------------
+*	Include a grid column
+*------------------------------------------------*/
+/* ---------------------------------------------
+*	Remove the unit from a number
+*------------------------------------------------*/
+/* ---------------------------------------------
+*	Takes a pixel size and changes it to REM
+*------------------------------------------------*/
+/* ---------------------------------------------
+*	Takes a pixel size and changes it to EM
+*------------------------------------------------*/
+/*
+*	Power function
+*	Pulled from: https://unindented.org/articles/trigonometry-in-sass/
+*/
+/*
+*	Calculate the requested position in the typographic scale
+*/
+/* --------------------------------------------------------
+*        __ __  __
+*      /  /   /   /     __/__/__
+*      \ /   /   /  __   /  /  __  (/__
+*       /   /   / /  /  /  /  /__) /  /
+*      /   /   / (__/__/_ /__/____/  /_/
+*              \
+*                SOLUTIONS
+*
+*	This file contains the base mixins needed for the
+*	framework to work.
+*
+*	Dependancies:
+*	- base.grid-setttings
+*
+*	Contents:
+*	- mk-grid-column-class-loop
+*	- mk-media-query
+*
+ ---------------------------------------------------------- */
+/* ---------------------------------------------
+*	Mixin to loop through the grid columns and generate class names
+*------------------------------------------------*/
+/* ---------------------------------------------
+*	Include a media query
+*------------------------------------------------*/
+/* --------------------------------------------------------
+*        __ __  __
+*      /  /   /   /     __/__/__
+*      \ /   /   /  __   /  /  __  (/__
+*       /   /   / /  /  /  /  /__) /  /
+*      /   /   / (__/__/_ /__/____/  /_/
+*              \ 
+*                SOLUTIONS
+*
+*	Helpers
+*	Trumps for further refinement
+*
+ ---------------------------------------------------------- */
+/**
+ * Text alignment
+ */
+.u-text--left {
+  text-align: left  !important; }
+
+.u-text--center {
+  text-align: center !important; }
+
+.u-text--right {
+  text-align: right !important; }
+
+/**
+ * Text tranform
+ */
+.u-text--uppercase {
+  text-transform: uppercase !important; }
+
+.u-text--lowercase {
+  text-transform: lowercase !important; }
+
+/**
+ * Add/remove margins
+ */
+.u-push {
+  margin: 28px !important; }
+
+.u-push--top {
+  margin-top: 28px !important; }
+
+.u-push--right {
+  margin-right: 28px !important; }
+
+.u-push--bottom {
+  margin-bottom: 28px !important; }
+
+.u-push--left {
+  margin-left: 28px !important; }
+
+.u-push--ends {
+  margin-top: 28px !important;
+  margin-bottom: 28px !important; }
+
+.u-push--sides {
+  margin-right: 28px !important;
+  margin-left: 28px !important; }
+
+/**
+ * Add/remove margins
+ */
+.u-push-half {
+  margin: 14px !important; }
+
+.u-push-half--top {
+  margin-top: 14px !important; }
+
+.u-push-half--right {
+  margin-right: 14px !important; }
+
+.u-push-half--bottom {
+  margin-bottom: 14px !important; }
+
+.u-push-half--left {
+  margin-left: 14px !important; }
+
+.u-push-half--ends {
+  margin-top: 14px !important;
+  margin-bottom: 14px !important; }
+
+.u-push-half--sides {
+  margin-right: 14px !important;
+  margin-left: 14px !important; }
+
+.u-flush {
+  margin: 0 !important; }
+
+.u-flush--top {
+  margin-top: 0 !important; }
+
+.u-flush--right {
+  margin-right: 0 !important; }
+
+.u-flush--bottom {
+  margin-bottom: 0 !important; }
+
+.u-flush--left {
+  margin-left: 0 !important; }
+
+.u-flush--ends {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important; }
+
+.u-flush--sides {
+  margin-right: 0 !important;
+  margin-left: 0 !important; }
+
+.u-soft {
+  padding: 28px !important; }
+
+.u-soft--top {
+  padding-top: 28px !important; }
+
+.u-soft--right {
+  padding-right: 28px !important; }
+
+.u-soft--bottom {
+  padding-bottom: 28px !important; }
+
+.u-soft--left {
+  padding-left: 28px !important; }
+
+.u-soft--ends {
+  padding-top: 28px !important;
+  padding-bottom: 28px !important; }
+
+.u-soft--sides {
+  padding-right: 28px !important;
+  padding-left: 28px !important; }
+
+.u-soft-half {
+  padding: 14px !important; }
+
+.u-soft-half--top {
+  padding-top: 14px !important; }
+
+.u-soft-half--right {
+  padding-right: 14px !important; }
+
+.u-soft-half--bottom {
+  padding-bottom: 14px !important; }
+
+.u-soft-half--left {
+  padding-left: 14px !important; }
+
+.u-soft-half--ends {
+  padding-top: 14px !important;
+  padding-bottom: 14px !important; }
+
+.u-soft-half--sides {
+  padding-right: 14px !important;
+  padding-left: 14px !important; }
+
+.u-hard {
+  padding: 0 !important; }
+
+.u-hard--top {
+  padding-top: 0 !important; }
+
+.u-hard--right {
+  padding-right: 0 !important; }
+
+.u-hard--bottom {
+  padding-bottom: 0 !important; }
+
+.u-hard--left {
+  padding-left: 0 !important; }
+
+.u-hard--ends {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important; }
+
+.u-hard--sides {
+  padding-right: 0 !important;
+  padding-left: 0 !important; }
+
+/**
+ * Hide content off-screen without resorting to `display:none;`, also provide
+ * breakpoint specific hidden elements.
+ */
+.u-accessibility, .u-visuallyhidden, .u-screen-reader-text {
+  border: 0 !important;
+  clip: rect(0 0 0 0) !important;
+  height: 1px !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  position: absolute !important;
+  width: 1px !important; }
+
+.u-typeface--primary {
+  font-family: "Lato", Arial, sans-serif;
+  font-weight: 400;
+  font-style: normal; }
+
+.u-typeface--secondary {
+  font-family: "Black Ops One";
+  font-weight: 400;
+  font-style: normal; }
+
+.u-fill, .off-canvas .site-blocker, .u-image-link:after, .overlay:before, .ratio__body, .ratio--video iframe {
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%; }
+
+.u-center {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); }
+
+.u-vertical-center {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%); }
+
+.u-block {
+  display: block; }
+
+.u-block--center {
+  margin-left: auto;
+  margin-right: auto; }
+
+/*
+*	Keylines
+*/
+.u-keyline {
+  border-top: 1px solid #F6F6F6; }
+.u-keyline--bottom {
+  border-bottom: 1px solid #F6F6F6; }
+.u-keyline--white {
+  border-color: #FFFFFF; }
+.u-keyline--dark {
+  border-color: #231f20; }
+
+.u-image-fill {
+  height: auto;
+  max-width: none;
+  width: 100%; }
+
+.u-link--no-decoration {
+  text-decoration: none !important; }
+
+.off-canvas .site-blocker {
+  background-color: #000000;
+  opacity: .5;
+  position: fixed; }
+
+.u-hide-labels label {
+  display: none; }
+
+.u-btn-fill input[type="submit"], .u-btn-fill button, .u-btn-fill .btn, .u-btn-fill .button, .u-btn-fill input[type="submit"], .u-btn-fill .submit {
+  width: 100%; }
+@media (max-width: 519px) {
+  .u-btn-fill\@palm {
+    width: 100%; } }
+
+.u-text--small {
+  font-size: 0.8888889rem;
+  line-height: 1.375em; }
+
+.u-text--tiny {
+  font-size: 0.8333333rem;
+  line-height: 1.4666667em; }
+
+.u-text--large {
+  font-size: 1.2222222rem;
+  line-height: 1.1363636em; }
+
+.u-image-link {
+  display: inline-block;
+  position: relative;
+  width: 100%; }
+.u-image-link img {
+  max-width: none;
+  width: 100%; }
+.u-image-link:after {
+  background-color: transparent;
+  content: "";
+  -webkit-transition: all .2s ease;
+          transition: all .2s ease; }
+.u-image-link:hover:after {
+  background-color: rgba(235, 255, 38, 0.5); }
+
+/*
+*	Set a max-width for optimal line length
+*/
+.u-line-length {
+  display: inline-block;
+  max-width: 49rem;
+  width: 100%; }
+
+/*
+*	Extend elements out a column each side
+*	Separating this element out allows a wrap to exist inside
+*/
+.u-extend {
+  max-width: 1365px;
+  margin-left: auto;
+  margin-right: auto; }
+
+/*
+*	Offset the bottom margin of elements
+*/
+.u-offset-margin {
+  margin-bottom: -1.5555556rem; }
+
+@media (min-width: 960px) {
+  .u-overhang--bottom {
+    margin-bottom: -2.3333333rem; }
+  .u-overhang--top {
+    margin-top: -3.1111111rem; } }
+
+.u-show\@desk {
+  display: none !important; }
+@media (min-width: 960px) {
+  .u-show\@desk {
+    display: inline-block !important; } }
+
+@media (min-width: 960px) {
+  .u-hide\@desk {
+    display: none !important; } }
+
+.u-text-columns {
+  -webkit-columns: 180px 2;
+     -moz-columns: 180px 2;
+          columns: 180px 2;
+  padding-right: 1.5555556rem; }
+@media (min-width: 960px) {
+  .u-text-columns--thirds {
+    -webkit-columns: 150px 3;
+       -moz-columns: 150px 3;
+            columns: 150px 3; } }
+
+/**
+ * Sometimes we just need to remove margins even though we're using normalize.
+ */
+body, h1, h2, h3, h4, h5, h6, h6, p, blockquote, pre, dl, dd, ol, ul, form, fieldset, legend, figure, table, th, td, caption, hr {
+  margin: 0;
+  padding: 0; }
+
+/**
+ * Give `cursor: help` for `:hover` on these elements.
+ */
+abbr[title], dfn[title] {
+  cursor: help; }
+
+/**
+ * No underlines for yuo!
+ */
+u, ins {
+  text-decoration: none; }
+
+/**
+ * Faux underlines via `border-bottom` for insterted text.
+ */
+ins {
+  border-bottom: 1px solid; }
+
+/* --------------------------------------------------------
+*        __ __  __
+*      /  /   /   /     __/__/__
+*      \ /   /   /  __   /  /  __  (/__
+*       /   /   / /  /  /  /  /__) /  /
+*      /   /   / (__/__/_ /__/____/  /_/
+*              \
+*                SOLUTIONS
+*
+*	Box Sizing
+*	Force a global standard of border-box, this can be changed
+*	on an element basis, with child elements inheriting from the parent
+*
+ ---------------------------------------------------------- */
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+/* --------------------------------------------------------
+*        __ __  __
+*      /  /   /   /     __/__/__
+*      \ /   /   /  __   /  /  __  (/__
+*       /   /   / /  /  /  /  /__) /  /
+*      /   /   / (__/__/_ /__/____/  /_/
+*              \
+*                SOLUTIONS
+*
+*	Clearfix
+*	Allow extending or drop-in classes to clear floated elements
+*
+ ---------------------------------------------------------- */
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+/* --------------------------------------------------------
+*        __ __  __
+*      /  /   /   /     __/__/__
+*      \ /   /   /  __   /  /  __  (/__
+*       /   /   / /  /  /  /  /__) /  /
+*      /   /   / (__/__/_ /__/____/  /_/
+*              \
+*                SOLUTIONS
+*
+*	Page
+*	Standard base typography styling and overflow for the HTML elements
+*	Also has a transition on the body element for interactions with body
+*
+ ---------------------------------------------------------- */
+html {
+  background-color: #FFFFFF;
+  color: #231f20;
+  font-family: "Lato", Arial, sans-serif;
+  font-weight: 400;
+  min-height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-size: 0.9em;
+  line-height: 1.75em; }
+@media (min-width: 740px) {
+  html {
+    font-size: 1.0125em;
+    line-height: 1.5555556em; } }
+@media (min-width: 960px) {
+  html {
+    font-size: 1.125em;
+    line-height: 1.5555556em; } }
+
+body {
+  -webkit-transition: -webkit-transform .2s ease;
+          transition: transform .2s ease; }
+
+/* --------------------------------------------------------
+*        __ __  __
+*      /  /   /   /     __/__/__
+*      \ /   /   /  __   /  /  __  (/__
+*       /   /   / /  /  /  /  /__) /  /
+*      /   /   / (__/__/_ /__/____/  /_/
+*              \
+*                SOLUTIONS
+*
+*	Objects
+*	Make iframe, embeds, objects etc 'responsive'
+*
+ ---------------------------------------------------------- */
+embed, iframe, object, video, .wp-caption {
+  max-width: 100%; }
+
+/* --------------------------------------------------------
+*        __ __  __
+*      /  /   /   /     __/__/__
+*      \ /   /   /  __   /  /  __  (/__
+*       /   /   / /  /  /  /  /__) /  /
+*      /   /   / (__/__/_ /__/____/  /_/
+*              \
+*                SOLUTIONS
+*
+*	HR - Horizontal Rule
+*	Standard horizontal rule for separating content
+*
+ ---------------------------------------------------------- */
+hr {
+  border: none;
+  border-bottom: 1px solid #F6F6F6;
+  margin-bottom: 1.75em;
+  margin-top: 1.75em;
+  outline: none; }
+@media (min-width: 960px) {
+  hr {
+    margin-bottom: 3.5em;
+    margin-top: 3.5em; } }
+
+/* --------------------------------------------------------
+*        __ __  __
+*      /  /   /   /     __/__/__
+*      \ /   /   /  __   /  /  __  (/__
+*       /   /   / /  /  /  /  /__) /  /
+*      /   /   / (__/__/_ /__/____/  /_/
+*              \
+*                SOLUTIONS
+*
+*	Images
+*	Base styling for images and SVG elements
+*
+ ---------------------------------------------------------- */
+img {
+  font-style: italic;
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle; }
+
+.gm-style img {
+  max-width: none; }
+
+svg {
+  fill: currentColor;
+  vertical-align: baseline; }
+
+.js-inject-svg[src=""] {
+  display: none; }
+
+/* --------------------------------------------------------
+*        __ __  __
+*      /  /   /   /     __/__/__
+*      \ /   /   /  __   /  /  __  (/__
+*       /   /   / /  /  /  /  /__) /  /
+*      /   /   / (__/__/_ /__/____/  /_/
+*              \
+*                SOLUTIONS
+*
+*	Links
+*	Base styling for anchor tags / links
+*
+ ---------------------------------------------------------- */
+a {
+  color: #9c8505;
+  text-decoration: underline; }
+a:visited {
+  color: #6b5b03; }
+a:hover {
+  color: #9c8505;
+  text-decoration: none; }
+a:active {
+  color: #9c8505; }
+
+/* --------------------------------------------------------
+*        __ __  __
+*      /  /   /   /     __/__/__
+*      \ /   /   /  __   /  /  __  (/__
+*       /   /   / /  /  /  /  /__) /  /
+*      /   /   / (__/__/_ /__/____/  /_/
+*              \
+*                SOLUTIONS
+*
+*	Lists
+*	Standard styling for ordered, unordered lists and their list items
+*
+ ---------------------------------------------------------- */
+li > ul, li > ol {
+  margin-bottom: 0; }
+
+ul {
+  list-style-type: disc; }
+
+ol {
+  list-style-type: decimal; }
+
+/* --------------------------------------------------------
+*        __ __  __
+*      /  /   /   /     __/__/__
+*      \ /   /   /  __   /  /  __  (/__
+*       /   /   / /  /  /  /  /__) /  /
+*      /   /   / (__/__/_ /__/____/  /_/
+*              \
+*                SOLUTIONS
+*
+*	=Forms
+*	Base styling for standard form elements
+*
+* 	Dependancies
+* 	- base.typography
+* 	- base.colors
+*
+ ---------------------------------------------------------- */
+fieldset {
+  background: transparent;
+  border: none;
+  padding: 0; }
+
+input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], input:not([type]), textarea, label, select, textarea, .select2 .select2-selection {
+  display: block; }
+
+label {
+  color: #231f20;
+  font-size: 0.8333333rem;
+  font-weight: 900;
+  margin-bottom: 0.25em;
+  text-transform: uppercase; }
+label abbr {
+  display: none; }
+
+button, input[type="submit"] {
+  font-family: inherit;
+  -webkit-appearance: value;
+  -moz-appearance: value; }
+
+/*
+*	Make consistent heights across text inputs (except textarea), based on the height of padding/line-height etc
+*/
+input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], input:not([type]), textarea, select {
+  height: 2.7777778rem; }
+
+/*
+*	Style form elements consistently
+*/
+textarea, input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], input:not([type]), textarea, select {
+  -webkit-transition: border-color;
+  transition: border-color;
+  background-color: #FFFFFF;
+  border-radius: 0;
+  border: 2px solid #131313;
+  color: #231f20;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 400;
+  padding-bottom: 0.4375em;
+  padding-left: 1.0625em;
+  padding-right: 1.0625em;
+  padding-top: 0.4375em;
+  width: 100%; }
+textarea:hover, input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="email"]:hover, input[type="month"]:hover, input[type="number"]:hover, input[type="password"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="text"]:hover, input[type="time"]:hover, input[type="url"]:hover, input[type="week"]:hover, input:not([type]):hover, textarea:hover, select:hover {
+  background-color: #FFFFFF;
+  border-color: #202020; }
+textarea:focus, input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="email"]:focus, input[type="month"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="week"]:focus, input:not([type]):focus, textarea:focus, select:focus {
+  background-color: #FFFFFF;
+  border-color: #2d2d2d;
+  box-shadow: none !important;
+  outline: none; }
+
+textarea {
+  height: 10.3125em;
+  resize: vertical; }
+
+input[type="search"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none; }
+
+input[type="file"] {
+  padding-bottom: halve(28px)/160em;
+  width: 100%; }
+
+/*
+*	Placeholders
+*/
+::-webkit-input-placeholder {
+  color: #8e8083;
+  font-weight: 400;
+  opacity: 1; }
+
+::-moz-placeholder {
+  color: #8e8083;
+  font-weight: 400;
+  opacity: 1; }
+
+:-ms-input-placeholder {
+  color: #8e8083 !important;
+  font-weight: 400;
+  opacity: 1; }
+
+/*
+*	Checkbox & Radio Buttons
+*/
+input[type="checkbox"], input[type="radio"] {
+  vertical-align: middle;
+  width: auto; }
+input[type="checkbox"] + label, input[type="radio"] + label {
+  display: inline;
+  vertical-align: middle; }
+
+select {
+  border: 2px solid #131313; }
+
+/* --------------------------------------------------------
+*        __ __  __
+*      /  /   /   /     __/__/__
+*      \ /   /   /  __   /  /  __  (/__
+*       /   /   / /  /  /  /  /__) /  /
+*      /   /   / (__/__/_ /__/____/  /_/
+*              \
+*                SOLUTIONS
+*
+*	Table
+*	Styling for table elements, including the table heading elements
+*
+ ---------------------------------------------------------- */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-bottom: 1.5555556rem;
+  width: 100%; }
+
+tr {
+  background-color: transparent;
+  color: #231f20; }
+tr:hover {
+  background-color: #f7f7f7;
+  color: #231f20; }
+
+tbody {
+  border-bottom: 1px solid #F6F6F6; }
+
+td, th {
+  border-top: 1px solid #F6F6F6;
+  padding: 0.875em 1.75em; }
+
+th {
+  background-color: #131313;
+  color: #FFFFFF;
+  font-weight: 900;
+  text-align: left;
+  text-transform: uppercase; }
+
+td {
+  text-align: left; }
+
+/* --------------------------------------------------------
+*        __ __  __
+*      /  /   /   /     __/__/__
+*      \ /   /   /  __   /  /  __  (/__
+*       /   /   / /  /  /  /  /__) /  /
+*      /   /   / (__/__/_ /__/____/  /_/
+*              \
+*                SOLUTIONS
+*
+*	Quotes
+*	Adding quote marks before and after specific 'quote' like elements
+*
+ ---------------------------------------------------------- */
+q {
+  font-style: italic;
+  quotes: '\201C' '\201D' '\2018' '\2019'; }
+q:before {
+  content: open-quote; }
+q:after {
+  content: close-quote; }
+
+blockquote {
+  quotes: '\201C' '\201D'; }
+blockquote p:last-of-type {
+  margin-bottom: 0; }
+blockquote q {
+  quotes: '\2018' '\2019'; }
+blockquote q:before {
+  content: '\2018'; }
+blockquote q:after {
+  content: '\2019'; }
+
+/* --------------------------------------------------------
+*        __ __  __
+*      /  /   /   /     __/__/__
+*      \ /   /   /  __   /  /  __  (/__
+*       /   /   / /  /  /  /  /__) /  /
+*      /   /   / (__/__/_ /__/____/  /_/
+*              \
+*                SOLUTIONS
+*
+*	Standard blockquote styling, this is very basic
+*	Feature blockquotes can be used for opt-in specific styling
+*
+ ---------------------------------------------------------- */
+blockquote {
+  font-size: 1.2222222rem;
+  line-height: 1.454545; }
+
+/* --------------------------------------------------------
+*        __ __  __
+*      /  /   /   /     __/__/__
+*      \ /   /   /  __   /  /  __  (/__
+*       /   /   / /  /  /  /  /__) /  /
+*      /   /   / (__/__/_ /__/____/  /_/
+*              \
+*                SOLUTIONS
+*
+*	Shared
+*	Set consistent spacing on elements to keep the vertical rythm consistent.
+*
+ ---------------------------------------------------------- */
+h1, h2, h3, h4, h5, h6, h6, ul, ol, dl, blockquote, p, address, table, fieldset, figure, pre {
+  margin-bottom: 1.5555556rem; }
+.u-negate-btm-margin h1:last-child:not(.listing), .box h1:last-child:not(.listing), .u-negate-btm-margin h2:last-child:not(.listing), .box h2:last-child:not(.listing), .u-negate-btm-margin h3:last-child:not(.listing), .box h3:last-child:not(.listing), .u-negate-btm-margin h4:last-child:not(.listing), .box h4:last-child:not(.listing), .u-negate-btm-margin h5:last-child:not(.listing), .box h5:last-child:not(.listing), .u-negate-btm-margin h6:last-child:not(.listing), .box h6:last-child:not(.listing), .u-negate-btm-margin h6:last-child:not(.listing), .box h6:last-child:not(.listing), .u-negate-btm-margin ul:last-child:not(.listing), .box ul:last-child:not(.listing), .u-negate-btm-margin ol:last-child:not(.listing), .box ol:last-child:not(.listing), .u-negate-btm-margin dl:last-child:not(.listing), .box dl:last-child:not(.listing), .u-negate-btm-margin blockquote:last-child:not(.listing), .box blockquote:last-child:not(.listing), .u-negate-btm-margin p:last-child:not(.listing), .box p:last-child:not(.listing), .u-negate-btm-margin address:last-child:not(.listing), .box address:last-child:not(.listing), .u-negate-btm-margin table:last-child:not(.listing), .box table:last-child:not(.listing), .u-negate-btm-margin fieldset:last-child:not(.listing), .box fieldset:last-child:not(.listing), .u-negate-btm-margin figure:last-child:not(.listing), .box figure:last-child:not(.listing), .u-negate-btm-margin pre:last-child:not(.listing), .box pre:last-child:not(.listing) {
+  margin-bottom: 0; }
+
+ul, ol, dd {
+  margin-left: 1.5555556rem; }
+
+/* --------------------------------------------------------
+*        __ __  __
+*      /  /   /   /     __/__/__
+*      \ /   /   /  __   /  /  __  (/__
+*       /   /   / /  /  /  /  /__) /  /
+*      /   /   / (__/__/_ /__/____/  /_/
+*              \
+*                SOLUTIONS
+*
+*	Standard heading styling
+*	By default, these work with the calculated type scale
+*
+ ---------------------------------------------------------- */
+/*
+*	Heading sizes
+*/
+h1 {
+  font-size: 2.7027082rem; }
+
+h2 {
+  font-size: 2.2153346rem; }
+
+h3 {
+  font-size: 1.815848rem; }
+
+h4 {
+  font-size: 1.4884rem; }
+
+h5, h6 {
+  font-size: 1.22rem; }
+
+h6 {
+  font-size: 1rem;
+  text-transform: uppercase; }
+
+h1, h2, h3, h4, h5, h6, h6 {
+  color: inherit;
+  font-weight: 900;
+  line-height: 1;
+  margin-bottom: .2em;
+  margin-top: 0; }
+
+p + h1, p + h2, p + h3, p + h4, p + h5, p + h6, p + h6, ul + h1, ul + h2, ul + h3, ul + h4, ul + h5, ul + h6, ul + h6, ol + h1, ol + h2, ol + h3, ol + h4, ol + h5, ol + h6, ol + h6, table + h1, table + h2, table + h3, table + h4, table + h5, table + h6, table + h6, hr + h1, hr + h2, hr + h3, hr + h4, hr + h5, hr + h6, hr + h6 {
+  margin-top: 1.5555556rem; }
+@media (min-width: 960px) {
+  p + h1, p + h2, p + h3, p + h4, p + h5, p + h6, p + h6, ul + h1, ul + h2, ul + h3, ul + h4, ul + h5, ul + h6, ul + h6, ol + h1, ol + h2, ol + h3, ol + h4, ol + h5, ol + h6, ol + h6, table + h1, table + h2, table + h3, table + h4, table + h5, table + h6, table + h6, hr + h1, hr + h2, hr + h3, hr + h4, hr + h5, hr + h6, hr + h6 {
+    margin-top: 2.3333333rem; } }
+
+/* --------------------------------------------------------
+*        __ __  __
+*      /  /   /   /     __/__/__
+*      \ /   /   /  __   /  /  __  (/__
+*       /   /   / /  /  /  /  /__) /  /
+*      /   /   / (__/__/_ /__/____/  /_/
+*              \
+*                SOLUTIONS
+*
+*	Bands
+*	Base block elements for use within the page
+*	These include several padding sizes
+*
+* 	Dependancies:
+* 	- base.typography
+*
+ ---------------------------------------------------------- */
+/*
+*	Start Element
+*/
+.band {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 1.5555556rem;
+  padding-top: 1.5555556rem;
+  /*
+  *	Tiny size
+  */
+  /*
+  *	Small size
+  */
+  /*
+  *	Large size
+  */
+  /*
+  *	Huge size
+  */
+  /*
+  *	Giga size
+  */
+  /*
+  *	Dark background
+  */
+  /*
+  *	Primary background
+  */
+  /*
+  *	Secondary background
+  */ }
+.band__body {
+  display: inline-block;
+  width: 100%; }
+.band--tiny {
+  padding-bottom: 0.3888889rem;
+  padding-top: 0.3888889rem; }
+.band--small {
+  padding-bottom: 0.7777778rem;
+  padding-top: 0.7777778rem; }
+.band--large {
+  padding-bottom: 1.5555556rem;
+  padding-top: 1.5555556rem; }
+@media (min-width: 960px) {
+  .band--large {
+    padding-bottom: 3.8888889rem;
+    padding-top: 3.8888889rem; } }
+.band--huge {
+  padding-bottom: 3.1111111rem;
+  padding-top: 3.1111111rem; }
+@media (min-width: 960px) {
+  .band--huge {
+    padding-bottom: 6.2222222rem;
+    padding-top: 6.2222222rem; } }
+.band--giga {
+  padding-bottom: 6.2222222rem;
+  padding-top: 6.2222222rem; }
+@media (min-width: 960px) {
+  .band--giga {
+    padding-bottom: 7.7777778rem;
+    padding-top: 7.7777778rem; } }
+@media (min-width: 1170px) {
+  .band--giga {
+    padding-bottom: 9.3333333rem;
+    padding-top: 9.3333333rem; } }
+@media (min-width: 1025px) {
+  .band--background-fixed {
+    background-attachment: fixed; } }
+.band--hero, .box--primary, .box--secondary {
+  background-color: #131313;
+  color: #FFFFFF; }
+.band--hero label, .box--primary label, .box--secondary label {
+  color: inherit; }
+.band--primary {
+  background-color: #ebff26; }
+.band--secondary {
+  background-color: #131313;
+  color: #FFFFFF; }
+.band--secondary label {
+  color: inherit; }
+.band--message {
+  background-color: #c8dc03; }
+.band--content + .band--content {
+  padding-top: 0; }
+.band--grey {
+  background-color: #F5F5F5; }
+
+/* --------------------------------------------------------
+*        __ __  __
+*      /  /   /   /     __/__/__
+*      \ /   /   /  __   /  /  __  (/__
+*       /   /   / /  /  /  /  /__) /  /
+*      /   /   / (__/__/_ /__/____/  /_/
+*              \ 
+*                SOLUTIONS
+*
+*	Overlay
+*	Add an overlay tint to darken image areas for better contrast for the content
+*
+ ---------------------------------------------------------- */
+/*
+*	Begin component output
+*/
+.overlay {
+  position: relative;
+  /*
+  *	Set the overlay itself as a pseudo element
+  */
+  /*
+  *	Position the body elements relative, so they sit over the psuedo element overlay
+  */
+  /*
+  *	Lighter Modifier
+  */
+  /*
+  *	Heavier/darker Overlay Modifier
+  */ }
+.overlay:before {
+  background-color: #000000;
+  content: "";
+  opacity: .5;
+  z-index: 2; }
+.overlay__body {
+  position: relative;
+  z-index: 5; }
+.overlay--light:before {
+  opacity: .2; }
+.overlay--heavy:before {
+  opacity: .7; }
+
+/* --------------------------------------------------------
+*        __ __  __
+*      /  /   /   /     __/__/__
+*      \ /   /   /  __   /  /  __  (/__
+*       /   /   / /  /  /  /  /__) /  /
+*      /   /   / (__/__/_ /__/____/  /_/
+*              \
+*                SOLUTIONS
+*
+*	Layout
+*	Layout elements to align with the base grid
+*	Used with the col-x-x classes
+*
+* 	
+ ---------------------------------------------------------- */
+/**
+ * Begin a layout group.
+ */
+.layout, .listing {
+  list-style: none;
+  margin: 0;
+  margin-left: -1.1111111rem;
+  padding: 0; }
+
+/**
+ * 1. Cause columns to stack side-by-side.
+ * 2. Space columns apart.
+ * 3. Align columns to the tops of each other.
+ * 4. Full-width unless told to behave otherwise.
+ * 5. Required to combine fluid widths and fixed gutters.
+ */
+.layout__item, .listing__item {
+  display: inline-block;
+  /* [1] */
+  padding-left: 1.1111111rem;
+  /* [2] */
+  vertical-align: top;
+  /* [3] */
+  width: 100%;
+  /* [4] */ }
+
+/**
+ * Layouts with tiny gutters.
+ */
+.layout--tiny {
+  margin-left: -0.1111111rem; }
+.layout--tiny > .layout__item, .layout--tiny > .listing__item {
+  padding-left: 0.1111111rem; }
+
+/**
+ * Layouts with small gutters.
+ */
+.layout--small {
+  margin-left: -0.5555556rem; }
+.layout--small > .layout__item, .layout--small > .listing__item {
+  padding-left: 0.5555556rem; }
+
+/**
+ * Layouts with large gutters.
+ */
+.layout--large {
+  margin-left: -2.2222222rem; }
+.layout--large > .layout__item, .layout--large > .listing__item {
+  padding-left: 2.2222222rem; }
+
+/**
+ * Layouts with huge gutters.
+ */
+.layout--huge {
+  margin-left: -4.4444444rem; }
+.layout--huge > .layout__item, .layout--huge > .listing__item {
+  padding-left: 4.4444444rem; }
+
+/**
+ * Layouts with no gutters.
+ */
+.layout--flush {
+  margin-left: 0; }
+.layout--flush > .layout__item, .layout--flush > .listing__item {
+  padding-left: 0; }
+
+/**
+ * Reversed rendered order of layout items, e.g. items 1, 2, 3, 4 in your
+ * markup will display in order 4, 3, 2, 1 on your page.
+ */
+.layout--rev {
+  direction: rtl;
+  text-align: left; }
+.layout--rev > .layout__item, .layout--rev > .listing__item {
+  direction: ltr;
+  text-align: left; }
+
+/**
+ * Alternating reversal of list items
+ * markup will display in order 4, 3, 2, 1 on your page.
+ */
+.layout--alternate > .layout__item, .layout--alternate > .listing__item {
+  direction: ltr;
+  text-align: left; }
+.layout--alternate > .layout__item:nth-of-type(2n), .layout--alternate > .listing__item:nth-of-type(2n) {
+  direction: rtl;
+  text-align: left; }
+/**
+ * Align layout items to the vertical centers of each other.
+ */
+.layout--middle > .layout__item, .layout--middle > .listing__item {
+  vertical-align: middle; }
+
+/**
+ * Make the layout items fill up from the center outward.
+ */
+.layout--center {
+  text-align: center; }
+.layout--center > .layout__item, .layout--center > .listing__item {
+  text-align: left; }
+
+/**
+ * Cause layout items to take up a non-explicit amount of width.
+ */
+.layout--auto > .layout__item, .layout--auto > .listing__item {
+  width: auto; }
+
+/* --------------------------------------------------------
+*        __ __  __
+*      /  /   /   /     __/__/__
+*      \ /   /   /  __   /  /  __  (/__
+*       /   /   / /  /  /  /  /__) /  /
+*      /   /   / (__/__/_ /__/____/  /_/
+*              \
+*                SOLUTIONS
+*
+*	Listing
+*	Designed to be used in conjunction with the layout block
+*	This adds spacing below the elements to separate listings
+*
+*	Dependencies
+*	- layout
+* 	
+ ---------------------------------------------------------- */
+.listing {
+  margin-bottom: -1.1111111rem; }
+.listing__item {
+  margin-bottom: 1.1111111rem; }
+
+/**
+ * Layouts with tiny gutters.
+ */
+.listing--tiny {
+  margin-bottom: -0.1111111rem; }
+.listing--tiny > .listing__item {
+  margin-bottom: 0.1111111rem; }
+
+/**
+ * Layouts with small gutters.
+ */
+.listing--small {
+  margin-bottom: -0.5555556rem; }
+.listing--small > .listing__item {
+  margin-bottom: 0.5555556rem; }
+
+/**
+ * Layouts with large gutters.
+ */
+.listing--large {
+  margin-bottom: -2.2222222rem; }
+.listing--large > .listing__item {
+  margin-bottom: 2.2222222rem; }
+
+/**
+ * Layouts with huge gutters.
+ */
+.listing--huge {
+  margin-bottom: -4.4444444rem; }
+.listing--huge > .listing__item {
+  margin-bottom: 4.4444444rem; }
+
+/**
+ * Layouts with no gutters.
+ */
+.listing--flush {
+  margin-bottom: 0; }
+.listing--flush > .listing__item {
+  margin-bottom: 0; }
+
+.listing--lines-bottom > .listing__item:last-of-type + .listing__item > .listing__content {
+  border-bottom: 1px solid #F6F6F6; }
+
+.listing--lines-between > .listing__item + .listing__item > .listing__content {
+  border-top: 1px solid #F6F6F6;
+  padding-top: 1.5555556rem; }
+.listing--lines-between.listing--flush > .listing__item + .listing__item > .listing__content {
+  padding-top: 0; }
+.listing--lines-between.listing--huge > .listing__item + .listing__item > .listing__content {
+  padding-top: 4.4444444rem; }
+.listing--lines-between.listing--large > .listing__item + .listing__item > .listing__content {
+  padding-top: 2.2222222rem; }
+.listing--lines-between.listing--small > .listing__item + .listing__item > .listing__content {
+  padding-top: 0.5555556rem; }
+.listing--lines-between.listing--tiny > .listing__item + .listing__item > .listing__content {
+  padding-top: 0.1111111rem; }
+
+/* --------------------------------------------------------
+*        __ __  __
+*      /  /   /   /     __/__/__
+*      \ /   /   /  __   /  /  __  (/__
+*       /   /   / /  /  /  /  /__) /  /
+*      /   /   / (__/__/_ /__/____/  /_/
+*              \ 
+*                SOLUTIONS
+*
+*	Lists
+*	Common styling for list elements
+*
+ ---------------------------------------------------------- */
+.list {
+  /*
+  *	Delimited lists
+  */
+  /*
+  *	Lists without bullet points or numbers
+  */
+  /*
+  *	Decimal lists
+  */
+  /*
+  *	Disc lists
+  */
+  /*
+  *	Disc Lower Roman
+  */
+  /*
+  *	Inline lists
+  */ }
+.list--delimited > li + li:before {
+  content: " | "; }
+.list--bare, .navigation, .sub-menu, .post-categories {
+  list-style: none;
+  margin-left: 0 !important; }
+.list--decimal {
+  list-style: decimal; }
+.list--disc {
+  list-style: disc; }
+.list--lower-roman {
+  list-style: lower-roman; }
+.list--inline, .post-categories {
+  padding-left: 0; }
+.list--inline > li, .post-categories > li {
+  display: inline-block;
+  width: auto; }
+.list--fancy-delimited > li + li:before {
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  content: "";
+  display: inline-block;
+  height: 0.2222222rem;
+  width: 0.2222222rem;
+  vertical-align: middle;
+  margin-left: 0.7777778rem;
+  margin-right: 0.7777778rem; }
+
+/* --------------------------------------------------------
+*        __ __  __
+*      /  /   /   /     __/__/__
+*      \ /   /   /  __   /  /  __  (/__
+*       /   /   / /  /  /  /  /__) /  /
+*      /   /   / (__/__/_ /__/____/  /_/
+*              \
+*                SOLUTIONS
+*
+*	Navigation
+*	Base navigation styles for all forms of navigation
+*
+*
+ ---------------------------------------------------------- */
+/*
+*	Remove padding and listing styling from navigation and submenus
+*/
+.navigation {
+  padding-left: 0;
+  /*
+  *	Vertical Menus
+  */
+  /*
+  *	Horizontal Menus
+  */ }
+@media (min-width: 960px) {
+  .navigation .menu-item {
+    position: relative; } }
+@media (min-width: 960px) {
+  .navigation--horizontal .menu-item {
+    display: inline-block; }
+  .navigation--horizontal .menu-item:hover > .sub-menu {
+    opacity: 1;
+    visibility: visible; }
+  .navigation--horizontal .sub-menu {
+    left: 0;
+    top: 100%; }
+  .navigation--horizontal .sub-menu .sub-menu {
+    left: 100%;
+    top: -1px; } }
+@media (max-width: 959px) {
+  .navigation--sliding {
+    -webkit-transition: -webkit-transform .2s ease;
+            transition: transform .2s ease; }
+  .navigation--sliding .sub-menu {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 100%; } }
+.navigation--sidebar .menu-item a {
+  display: none; }
+.navigation--sidebar .current-menu-ancestor .current-menu-ancestor a, .navigation--sidebar > .current-menu-item > a, .navigation--sidebar > .current-menu-item > ul > .menu-item > a, .navigation--sidebar > .current-menu-ancestor > ul > .current-menu-item a {
+  display: block; }
+.navigation--mega > li {
+  position: static !important; }
+.navigation--mega .menu-item--child {
+  margin-top: 1.5555556rem !important; }
+.navigation--mega .sub-menu {
+  position: static; }
+.navigation--mega .menu-item-has-children:hover .mega-menu, .navigation--mega .js-hover + .menu-item-trigger + .mega-menu, .navigation--mega .sub-menu {
+  opacity: 1;
+  visibility: visible;
+  display: block !important; }
+.navigation--mega .menu-item {
+  position: static !important; }
+.navigation--mega .sub-menu {
+  display: block !important; }
+.navigation--mega .mega-menu {
+  position: absolute;
+  width: 100%;
+  left: 0; }
+@media (max-width: 959px) {
+  .navigation--mega .mega-menu {
+    top: 0;
+    left: 100%; } }
+.navigation .js-toggle--sub-menu-up {
+  position: relative !important; }
+
+/* --------------------------------------------------------
+*        __ __  __
+*      /  /   /   /     __/__/__
+*      \ /   /   /  __   /  /  __  (/__
+*       /   /   / /  /  /  /  /__) /  /
+*      /   /   / (__/__/_ /__/____/  /_/
+*              \
+*                SOLUTIONS
+*
+*	Ratio
+*	Specific ratios to keep some elements at a fixed size.
+*	This will mostly be used for videos, but may be useful
+*	to extend for specific cases.
+*
+ ---------------------------------------------------------- */
+.ratio, .avatar__body {
+  display: block;
+  padding: 0;
+  position: relative;
+  width: 100%; }
+.ratio--image-content {
+  padding-bottom: 56%;
+  width: 100%; }
+.ratio--square, .avatar__body {
+  padding-bottom: 100%; }
+.ratio--video {
+  padding-bottom: 56.25%; }
+.ratio--video iframe {
+  max-width: none; }
+
+/* --------------------------------------------------------
+*        __ __  __
+*      /  /   /   /     __/__/__
+*      \ /   /   /  __   /  /  __  (/__
+*       /   /   / /  /  /  /  /__) /  /
+*      /   /   / (__/__/_ /__/____/  /_/
+*              \ 
+*                SOLUTIONS
+*
+*	Wraps
+*	Used to apply max-widths to content so it remains within an optimal line length
+*
+ ---------------------------------------------------------- */
+/*
+*	Base wrap element
+*/
+.wrap {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+  /*
+  *	Smaller wrap
+  */
+  /*
+  *	Wide wrap
+  */
+  /*
+  *	Extend wrap
+  */ }
+.wrap--petite {
+  max-width: 740px; }
+.wrap--wide {
+  max-width: none; }
+.wrap--extend {
+  max-width: 1218.75px; }
+
+/* --------------------------------------------------------
+*        __ __  __
+*      /  /   /   /     __/__/__
+*      \ /   /   /  __   /  /  __  (/__
+*       /   /   / /  /  /  /  /__) /  /
+*      /   /   / (__/__/_ /__/____/  /_/
+*              \ 
+*                SOLUTIONS
+*
+*	Display Heading
+*	- Used for punchy headlines
+*	- These are not designed to be used in standard page content
+*
+ ---------------------------------------------------------- */
+/*
+*	Begin component output
+*/
+.display-heading {
+  font-family: "Black Ops One";
+  font-size: 1.7722676rem;
+  font-weight: 400;
+  text-transform: none;
+  -webkit-transform: scaleY(1.2);
+      -ms-transform: scaleY(1.2);
+          transform: scaleY(1.2);
+  /*
+  *	Medium Size
+  */
+  /*
+  *	Largest Size, intended for use on <h1>, used sparingly
+  */
+  /*
+  *	Largest Size, intended for use on <h1>, used sparingly
+  */ }
+@media (min-width: 740px) {
+  .display-heading {
+    font-size: 2.2153346rem; } }
+.display-heading--beta {
+  font-size: 2.6378432rem; }
+@media (min-width: 740px) {
+  .display-heading--beta {
+    font-size: 3.297304rem; } }
+.display-heading--gamma {
+  font-size: 3.2181687rem; }
+@media (min-width: 740px) {
+  .display-heading--gamma {
+    font-size: 4.0227108rem; } }
+.display-heading--delta {
+  font-size: 5.8437051rem; }
+@media (min-width: 740px) {
+  .display-heading--delta {
+    font-size: 7.3046314rem; } }
+.display-heading--small {
+  font-size: 1.2222222rem; }
+
+.subheading {
+  font-size: 0.8333333rem;
+  font-weight: 900;
+  text-transform: uppercase; }
+
+/* --------------------------------------------------------
+*        __ __  __
+*      /  /   /   /     __/__/__
+*      \ /   /   /  __   /  /  __  (/__
+*       /   /   / /  /  /  /  /__) /  /
+*      /   /   / (__/__/_ /__/____/  /_/
+*              \ 
+*                SOLUTIONS
+*
+*	Paragraphs
+*	Type styles for paragraphs
+*
+ ---------------------------------------------------------- */
+.lede {
+  font-size: 1.2222222rem;
+  line-height: 1.454545em; }
+
+/* --------------------------------------------------------
+*        __ __  __
+*      /  /   /   /     __/__/__
+*      \ /   /   /  __   /  /  __  (/__
+*       /   /   / /  /  /  /  /__) /  /
+*      /   /   / (__/__/_ /__/____/  /_/
+*              \
+*                SOLUTIONS
+*
+*	Button module with modifiers
+*	Primarily used with links or form button elements where an
+*	action is invoked when the element is clicked
+*
+* 	Dependancies:
+* 	- base.typography
+* 	- base.grid-setting
+* 	- base.colors
+*
+ ---------------------------------------------------------- */
+/*
+*	Start btn element
+*/
+.btn, .button, input[type="submit"], .submit {
+  background-color: #131313;
+  border-radius: 0 7px 0 7px;
+  border: 2px solid #131313;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 0.8333333rem;
+  font-weight: 900;
+  margin-bottom: 0.25em;
+  padding: 0.6875em 2em;
+  text-align: center;
+  text-decoration: none !important;
+  text-transform: uppercase; }
+.btn:link, .button:link, input[type="submit"]:link, .submit:link, .btn:visited, .button:visited, input[type="submit"]:visited, .submit:visited {
+  color: #FFFFFF; }
+.btn:hover, .button:hover, input[type="submit"]:hover, .submit:hover, .btn:active, .button:active, input[type="submit"]:active, .submit:active {
+  background-color: #1d1d1d;
+  border: 2px solid #1d1d1d;
+  color: #ebff26; }
+.btn--inverse {
+  background-color: #FFFFFF;
+  border: 2px solid #FFFFFF;
+  color: #131313; }
+.btn--inverse:link, .btn--inverse:visited {
+  color: #131313; }
+.btn--inverse:hover, .btn--inverse:active {
+  background-color: #f2f2f2;
+  border: 2px solid #f2f2f2;
+  color: #131313; }
+.btn--secondary {
+  background-color: #ebff26;
+  border: 2px solid #ebff26;
+  color: #231f20; }
+.btn--secondary:link, .btn--secondary:visited {
+  color: #231f20; }
+.btn--secondary:hover, .btn--secondary:active {
+  background-color: #c8dc03;
+  border: 2px solid #c8dc03;
+  color: #231f20; }
+.btn--ghost, .btn--ghost-white {
+  background-color: transparent;
+  border: 2px solid #131313;
+  color: #131313; }
+.btn--ghost:link, .btn--ghost-white:link, .btn--ghost:visited, .btn--ghost-white:visited {
+  color: #131313; }
+.btn--ghost:hover, .btn--ghost-white:hover, .btn--ghost:active, .btn--ghost-white:active {
+  background-color: #131313;
+  border-color: #131313;
+  color: #FFFFFF; }
+.btn--ghost-secondary, .btn--feature, .btn--feature-secondary {
+  background-color: transparent;
+  border: 2px solid #ebff26;
+  color: #ebff26; }
+.btn--ghost-secondary:link, .btn--feature:link, .btn--feature-secondary:link, .btn--ghost-secondary:visited, .btn--feature:visited, .btn--feature-secondary:visited {
+  color: #ebff26; }
+.btn--ghost-secondary:hover, .btn--feature:hover, .btn--feature-secondary:hover, .btn--ghost-secondary:active, .btn--feature:active, .btn--feature-secondary:active {
+  background-color: #ebff26;
+  border-color: #ebff26;
+  color: #231f20; }
+.btn--ghost-white {
+  border-color: #FFFFFF; }
+.btn--ghost-white:link, .btn--ghost-white:visited {
+  color: #FFFFFF; }
+.btn--ghost-white:hover, .btn--ghost-white:active {
+  background-color: #FFFFFF;
+  border-color: #FFFFFF;
+  color: #131313; }
+.btn--large {
+  border-radius: 0 7px 0 7px;
+  font-size: 22px;
+  line-height: 1;
+  padding: 0.859375em 2.5em; }
+.btn--small {
+  border-radius: 0 7px 0 7px;
+  padding: 8.25px 24px;
+  font-size: 0.8333333rem; }
+.btn--tiny {
+  border-radius: 0 7px 0 7px;
+  padding: 2.75px 12px;
+  font-size: 0.8333333rem; }
+.btn--transparent {
+  background-color: transparent;
+  border-color: transparent;
+  color: inherit !important; }
+.btn--transparent:hover, .btn--transparent:active {
+  background-color: transparent;
+  border-color: transparent;
+  color: inherit !important; }
+.btn--feature, .btn--feature-secondary {
+  border-radius: 0 7px 0 7px;
+  font-size: 0.6666667rem;
+  padding-bottom: 1rem;
+  padding-top: 0.7777778rem;
+  text-align: left; }
+.btn--feature span, .btn--feature-secondary span {
+  display: block;
+  font-size: 1.5rem;
+  margin-top: -0.2222222rem; }
+.btn--fill {
+  display: block; }
+@media (max-width: 519px) {
+  .btn--fill\@--palm {
+    display: block; } }
+.btn--feature-secondary {
+  background-color: #ebff26;
+  border-radius: 0;
+  border: 2px solid #ebff26;
+  color: #231f20;
+  font-size: 0.8333333rem;
+  margin-bottom: 0;
+  padding-left: 3.1111111rem;
+  position: relative;
+  text-align: center; }
+@media (max-width: 1169px) {
+  .btn--feature-secondary {
+    padding-bottom: 0.7777778rem;
+    padding-left: 2.4444444rem; }
+  .btn--feature-secondary span {
+    display: inline;
+    font-size: inherit;
+    line-height: inherit; } }
+.btn--feature-secondary:link, .btn--feature-secondary:visited {
+  color: #231f20; }
+.btn--feature-secondary:hover, .btn--feature-secondary:active {
+  background-color: #c8dc03;
+  border: 2px solid #c8dc03;
+  color: #231f20; }
+.btn--feature-secondary .icon {
+  position: absolute;
+  top: 50%;
+  left: 1.1851852rem;
+  -webkit-transform: translateY(-50%) rotate(45deg);
+      -ms-transform: translateY(-50%) rotate(45deg);
+          transform: translateY(-50%) rotate(45deg); }
+@media (max-width: 1169px) {
+  .btn--feature-secondary .icon {
+    height: 0.7777778rem;
+    width: 0.7777778rem;
+    top: 1.3333333rem; } }
+@media (max-width: 739px) {
+  .btn--left .btn, .btn--left .button, .btn--left input[type="submit"], .btn--left .submit {
+    width: 100%; } }
+@media (min-width: 740px) {
+  .btn--left {
+    position: fixed;
+    left: 14px;
+    bottom: 14px;
+    width: 100%;
+    z-index: 200; } }
+.btn--side {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 200; }
+@media (min-width: 740px) {
+  .btn--side {
+    bottom: auto;
+    margin-bottom: 0;
+    right: 0;
+    left: auto;
+    top: 20%;
+    -webkit-transform-origin: 100% 100%;
+        -ms-transform-origin: 100% 100%;
+            transform-origin: 100% 100%;
+    -webkit-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+    width: auto; } }
+
+@media (min-width: 740px) {
+  .tax-product_cat .colophon {
+    padding-bottom: 6.2222222rem !important; } }
+
+@media (max-width: 739px) {
+  .fixed-button--offset {
+    padding-bottom: 2.9444444rem; } }
+
+button {
+  outline: none;
+  border: none; }
+
+/* --------------------------------------------------------
+*        __ __  __
+*      /  /   /   /     __/__/__
+*      \ /   /   /  __   /  /  __  (/__
+*       /   /   / /  /  /  /  /__) /  /
+*      /   /   / (__/__/_ /__/____/  /_/
+*              \
+*                SOLUTIONS
+*
+*	Icons
+*	Generic sizes to use throughout the layout
+*
+* 	Dependancies:
+* 	- base.typography
+ ---------------------------------------------------------- */
+/*
+*	Begin icon element
+*/
+.icon {
+  height: 1.1666667rem;
+  width: 1.1666667rem;
+  /*
+  *	Small modifier
+  */
+  /*
+  *	Large modifier
+  */ }
+.icon > svg, .icon > img {
+  height: inherit;
+  width: inherit; }
+.icon--before {
+  margin-right: 0.7777778rem; }
+.icon--after {
+  margin-left: 0.7777778rem; }
+.icon--small {
+  height: 0.7777778rem;
+  width: 0.7777778rem; }
+.icon--small.icon--before {
+  margin-right: 0.3888889rem; }
+.icon--small.icon--after {
+  margin-left: 0.3888889rem; }
+.icon--large {
+  height: 1.5555556rem;
+  width: 1.5555556rem; }
+.icon--large.icon--before {
+  margin-right: 0.7777778rem; }
+.icon--large.icon--after {
+  margin-left: 0.7777778rem; }
+.icon--middle svg, .icon--middle img {
+  vertical-align: middle; }
+
+/* --------------------------------------------------------
+*        __ __  __
+*      /  /   /   /     __/__/__
+*      \ /   /   /  __   /  /  __  (/__
+*       /   /   / /  /  /  /  /__) /  /
+*      /   /   / (__/__/_ /__/____/  /_/
+*              \
+*                SOLUTIONS
+*
+*	Nudge
+*	Designed to move small elements to show they're clickable
+*	One use case would be nudging arrows on CTA links
+*
+ ---------------------------------------------------------- */
+/*
+*	Begin Nudge Component
+*/
+.nudge {
+  /*
+  *	Begin small nudge
+  */
+  /*
+  *	Begin large nudge
+  */ }
+.nudge__item {
+  display: inline-block;
+  -webkit-transition: all .2s ease;
+          transition: all .2s ease; }
+.nudge--left:hover .nudge__item {
+  -webkit-transform: translateX(-0.5em);
+      -ms-transform: translateX(-0.5em);
+          transform: translateX(-0.5em); }
+.nudge--right:hover .nudge__item {
+  -webkit-transform: translateX(0.5em);
+      -ms-transform: translateX(0.5em);
+          transform: translateX(0.5em); }
+.nudge--right:hover .nudge__item.chevron--right {
+  -webkit-transform: translateX(0.5em) rotate(45deg);
+      -ms-transform: translateX(0.5em) rotate(45deg);
+          transform: translateX(0.5em) rotate(45deg); }
+.nudge--up:hover .nudge__item {
+  -webkit-transform: translateY(-0.5em);
+      -ms-transform: translateY(-0.5em);
+          transform: translateY(-0.5em); }
+.nudge--down:hover .nudge__item {
+  -webkit-transform: translateY(0.5em);
+      -ms-transform: translateY(0.5em);
+          transform: translateY(0.5em); }
+.nudge--left.nudge--small:hover .nudge__item {
+  -webkit-transform: translateX(-0.25em);
+      -ms-transform: translateX(-0.25em);
+          transform: translateX(-0.25em); }
+.nudge--right.nudge--small:hover .nudge__item {
+  -webkit-transform: translateX(0.25em);
+      -ms-transform: translateX(0.25em);
+          transform: translateX(0.25em); }
+.nudge--up.nudge--small:hover .nudge__item {
+  -webkit-transform: translateY(-0.25em);
+      -ms-transform: translateY(-0.25em);
+          transform: translateY(-0.25em); }
+.nudge--down.nudge--small:hover .nudge__item {
+  -webkit-transform: translateY(0.25em);
+      -ms-transform: translateY(0.25em);
+          transform: translateY(0.25em); }
+.nudge--left.nudge--large:hover .nudge__item {
+  -webkit-transform: translateX(-1em);
+      -ms-transform: translateX(-1em);
+          transform: translateX(-1em); }
+.nudge--right.nudge--large:hover .nudge__item {
+  -webkit-transform: translateX(1em);
+      -ms-transform: translateX(1em);
+          transform: translateX(1em); }
+.nudge--up.nudge--large:hover .nudge__item {
+  -webkit-transform: translateY(-1em);
+      -ms-transform: translateY(-1em);
+          transform: translateY(-1em); }
+.nudge--down.nudge--large:hover .nudge__item {
+  -webkit-transform: translateY(1em);
+      -ms-transform: translateY(1em);
+          transform: translateY(1em); }
+
+/* --------------------------------------------------------
+*        __ __  __
+*      /  /   /   /     __/__/__
+*      \ /   /   /  __   /  /  __  (/__
+*       /   /   / /  /  /  /  /__) /  /
+*      /   /   / (__/__/_ /__/____/  /_/
+*              \ 
+*                SOLUTIONS
+*
+*	Arrows
+*	Arrows and chevrons used to denote directive actions
+*
+ ---------------------------------------------------------- */
+/*
+*	Begin element output
+*/
+/*
+*	Arrows
+*/
+.arrow {
+  border-style: solid;
+  display: inline-block;
+  height: 0;
+  width: 0; }
+.arrow--right {
+  border-color: transparent transparent transparent #231f20;
+  border-width: 0.3em 0 0.3em 0.3em; }
+.btn .arrow--right, .button .arrow--right, input[type="submit"] .arrow--right, .submit .arrow--right {
+  margin-left: 0.875em; }
+.arrow--down {
+  border-width: 0.3em 0.3em 0 0.3em;
+  border-color: #231f20 transparent transparent transparent; }
+.btn .arrow--down, .button .arrow--down, input[type="submit"] .arrow--down, .submit .arrow--down {
+  margin-left: 0.875em; }
+.arrow--up {
+  border-width: 0 0.3em 0.3em 0.3em;
+  border-color: transparent transparent #231f20 transparent; }
+.btn .arrow--up, .button .arrow--up, input[type="submit"] .arrow--up, .submit .arrow--up {
+  margin-left: 0.875em; }
+.arrow--left {
+  border-color: transparent #9c8505 transparent transparent;
+  border-width: 0.3em 0.3em 0.3em 0; }
+.btn .arrow--left, .button .arrow--left, input[type="submit"] .arrow--left, .submit .arrow--left {
+  margin-right: 0.875em; }
+.arrow--white {
+  border-color: transparent transparent transparent #FFFFFF !important; }
+
+/*
+*	Chevrons
+*/
+.chevron {
+  border-right: 2px solid #231f20;
+  border-top: 2px solid #231f20;
+  display: inline-block;
+  height: 0.5em;
+  width: 0.5em;
+  position: relative;
+  top: -.08em; }
+@media (min-width: 960px) {
+  .chevron {
+    top: -2px; } }
+.chevron--right {
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg); }
+.chevron--left {
+  -webkit-transform: rotate(135deg);
+      -ms-transform: rotate(135deg);
+          transform: rotate(135deg); }
+.chevron--attention {
+  border-color: #ebff26 !important; }
+.chevron--white {
+  border-color: #FFFFFF !important; }
+
+/* --------------------------------------------------------
+*        __ __  __
+*      /  /   /   /     __/__/__
+*      \ /   /   /  __   /  /  __  (/__
+*       /   /   / /  /  /  /  /__) /  /
+*      /   /   / (__/__/_ /__/____/  /_/
+*              \
+*                SOLUTIONS
+*
+*	Box
+*	Set up a box for using throughout the project, including in any landing pages
+*
+*	Dependencies
+*	- band
+* 	
+ ---------------------------------------------------------- */
+.box:last-child {
+  margin-bottom: 0; }
+.box__content {
+  padding: 1.5555556rem; }
+.box__title {
+  padding: 0.7777778rem 1.5555556rem; }
+.box__title h2, .box__title h3, .box__title h4 {
+  display: inline-block;
+  vertical-align: middle; }
+.box__title .badge {
+  margin-left: 1.5555556rem; }
+.box--large {
+  padding: 3.1111111rem; }
+.box--primary {
+  background-color: #ebff26; }
+.box--secondary {
+  background-color: #131313; }
+.box--tertiary {
+  background-color: #e9e9e9; }
+.box--quarternary {
+  background-color: #F5F5F5; }
+.box--senary {
+  background-color: #F5F5F5; }
+.box--white {
+  background-color: #FFFFFF;
+  color: #231f20; }
+.box--white label {
+  color: inherit; }
+.box--semi-transparent {
+  background-color: rgba(255, 255, 255, 0.85);
+  color: #231f20; }
+.box--semi-transparent label {
+  color: inherit; }
+.box--outlined {
+  border: 1px solid #F6F6F6; }
+.box--outlined > .box__title + .box__content, .box--outlined > .box__content + .box__content {
+  border-top: 1px solid #F6F6F6; }
+
+/* --------------------------------------------------------
+*        __ __  __
+*      /  /   /   /     __/__/__
+*      \ /   /   /  __   /  /  __  (/__
+*       /   /   / /  /  /  /  /__) /  /
+*      /   /   / (__/__/_ /__/____/  /_/
+*              \
+*                SOLUTIONS
+*
+*	Avatar styling, different sizes, should only really be applied to square ratio images
+*
+ ---------------------------------------------------------- */
+.avatar {
+  max-width: 3.1111111rem; }
+.avatar--round .avatar__body {
+  border-radius: 50%; }
+.avatar--large {
+  max-width: 6.2222222rem; }
+.avatar--small {
+  max-width: 0.7777778rem; }
+
+/* --------------------------------------------------------
+*        __ __  __
+*      /  /   /   /     __/__/__
+*      \ /   /   /  __   /  /  __  (/__
+*       /   /   / /  /  /  /  /__) /  /
+*      /   /   / (__/__/_ /__/____/  /_/
+*              \ 
+*                SOLUTIONS
+*
+*	Image Links
+*
+ ---------------------------------------------------------- */
+.image-link {
+  display: block;
+  overflow: hidden; }
+.image-link:before, .image-link__icon {
+  opacity: 0;
+  -webkit-transition: opacity .2s ease;
+          transition: opacity .2s ease; }
+.image-link:before {
+  background-color: rgba(235, 255, 38, 0.8); }
+.image-link__content {
+  z-index: 5; }
+.image-link--zoom:hover:before {
+  opacity: .8; }
+.image-link--zoom:hover .image-link__icon {
+  opacity: 1; }
+
+.map {
+  /*
+  *	Map body contains the actual map
+  */ }
+.map__body {
+  min-height: 24.8888889rem; }
+
+/* --------------------------------------------------------
+*        __ __  __
+*      /  /   /   /     __/__/__
+*      \ /   /   /  __   /  /  __  (/__
+*       /   /   / /  /  /  /  /__) /  /
+*      /   /   / (__/__/_ /__/____/  /_/
+*              \
+*                SOLUTIONS
+*
+*	Marker Styling
+*	Used to display information in a box over a Google Map
+*
+ ---------------------------------------------------------- */
+.marker__body {
+  padding: 0.7777778rem; }
+
+/* --------------------------------------------------------
+*        __ __  __
+*      /  /   /   /     __/__/__
+*      \ /   /   /  __   /  /  __  (/__
+*       /   /   / /  /  /  /  /__) /  /
+*      /   /   / (__/__/_ /__/____/  /_/
+*              \ 
+*                SOLUTIONS
+*
+*	Wordpress
+*	Styling for core Wordpress editor and output styles
+*
+ ---------------------------------------------------------- */
+.post-categories {
+  display: inline; }
+
+.swatch--1 {
+  background-color: #ebff26; }
+
+.swatch--2 {
+  background-color: #131313; }
+
+.swatch--3 {
+  background-color: #e9e9e9; }
+
+.swatch--4 {
+  background-color: #F5F5F5; }
+
+.swatch--5 {
+  background-color: #F5F5F5; }
+
+.styletile-heading, .styletile-info {
+  color: #b73969; }
+
+.styletile-heading {
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  line-height: 1.2; }
+
+.styletile-info {
+  font-size: 13px;
+  line-height: 1.3;
+  margin-bottom: 0; }
+
+.styletile-hook--top {
+  position: relative; }
+@media (min-width: 1170px) {
+  .styletile-hook--top {
+    padding-right: 244px;
+    min-height: 188px; }
+  .styletile-hook--top .styletile-circle {
+    position: absolute;
+    right: 14px;
+    top: 14px; }
+  .styletile-hook--top .styletile-circle__body:after {
+    content: "";
+    position: absolute;
+    top: -19.6px;
+    right: 201.6px;
+    -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    -webkit-transform-origin: center;
+        -ms-transform-origin: center;
+            transform-origin: center;
+    display: block;
+    width: 14px;
+    height: 14px;
+    border-top: 1px dashed #b73969;
+    border-left: 1px dashed #b73969; }
+  .styletile-hook--top .styletile-circle__indicator {
+    height: 53.3333333px;
+    overflow: hidden;
+    position: absolute;
+    right: 80px;
+    top: 26.6666667px;
+    width: 160px;
+    z-index: 0;
+    -webkit-transform-origin: center;
+        -ms-transform-origin: center;
+            transform-origin: center;
+    -webkit-transform: rotate(60deg);
+        -ms-transform: rotate(60deg);
+            transform: rotate(60deg); }
+  .styletile-hook--top .styletile-circle__indicator:before {
+    border: 1px dashed #b73969;
+    border-radius: 100%;
+    content: "";
+    display: inline-block;
+    height: 200px;
+    width: 200px; } }
+
+@media (min-width: 1170px) {
+  .styletile-hook--bottom {
+    padding-bottom: 53.3333333px;
+    padding-right: 244px;
+    min-height: 188px; }
+  .styletile-hook--bottom .styletile-circle {
+    position: absolute;
+    right: 28px;
+    bottom: -53.3333333px; } }
+
+.styletile-circle {
+  display: inline-block;
+  z-index: 10; }
+.styletile-circle__body {
+  background-color: #fff;
+  border-radius: 50%;
+  border: 1px dashed #b73969;
+  height: 160px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  position: relative;
+  text-align: center;
+  width: 160px;
+  z-index: 10; }
+.styletile-circle__content {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  padding: 20px;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); }
+
+.styletile-icon-list > li {
+  margin-bottom: 7px; }
+
+/*
+*	Styletile colour listing 
+*/
+.styletile-colours {
+  margin-left: -14px !important; }
+.styletile-colours > li {
+  width: 20%;
+  padding-left: 14px; }
+
+@media (min-width: 1170px) {
+  .styletile-headings {
+    width: 68% !important; } }
+.styletile-headings p {
+  max-width: 500px; }

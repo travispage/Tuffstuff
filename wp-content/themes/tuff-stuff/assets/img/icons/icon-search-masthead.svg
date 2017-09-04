@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg version="1.1" class="icon--search-masthead" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 79 79" enable-background="new 0 0 79 79" xml:space="preserve">
+<g id="icon--search-masthead">
+	<path fill="#FFFFFF" d="M77.2,66.8L58.3,47.9c2.8-4.7,4.5-10.2,4.5-16.1C62.8,14.8,48,0,30.9,0C13.8,0,0,13.8,0,30.9
+		s14.8,31.9,31.9,31.9c5.7,0,11-1.5,15.6-4.2l19,19c1.9,1.9,4.9,1.9,6.7,0l4.7-4.7C79.8,71,79.1,68.7,77.2,66.8z M9.5,30.9
+		c0-11.8,9.6-21.4,21.4-21.4c11.8,0,22.4,10.5,22.4,22.4c0,11.8-9.6,21.4-21.4,21.4C20.1,53.3,9.5,42.8,9.5,30.9z"/>
+</g>
+</svg>
